@@ -15,6 +15,11 @@
 
 		<app.runtime>4.4.0-20211227</app.runtime>
 		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
+		<scm>
+		    <connection>scm:git:https://user:password@github.com/panizzag/scm-plugin-example.git</connection>
+    		<developerConnection>scm:git:https://user:password@github.com/panizzag/scm-plugin-example.git</developerConnection>
+		    <url>https://github.com/</url>
+		 </scm>
 	</properties>
 
 	<build>
